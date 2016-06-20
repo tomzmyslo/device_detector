@@ -1,3 +1,3 @@
 class DeviceDetector
-  VERSION = '0.8.3.alpha'
+  VERSION = '0.8.3'
 end
