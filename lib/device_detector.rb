@@ -154,11 +154,11 @@ class DeviceDetector
   end
 
   def android_tablet_fragment?
-    user_agent =~ build_regex('Tablet;')
+    user_agent =~ build_regex('Android*; Tablet;')
   end
 
   def android_mobile_fragment?
-    user_agent =~ build_regex('Mobile;')
+    user_agent =~ build_regex('Android*; Mobile;')
   end
 
   def touch_enabled?
